@@ -18,6 +18,7 @@ export default function CriptoSearchForm() {
         <label htmlFor="criptocurrency">CriptoMoneda: </label>
         <select name="criptocurrency" id="criptocurrency">
           <option value="">-- Seleccione --</option>
+          
         </select>
       </div>
 
