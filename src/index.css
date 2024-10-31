@@ -93,3 +93,7 @@ body {
     rgba(24, 35, 57, 1) 95%
   );
 }
+
+.alert {
+  color: var(--white)
+}
