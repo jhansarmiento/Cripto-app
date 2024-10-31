@@ -87,7 +87,7 @@ body {
   background: rgb(24, 35, 57);
   background: linear-gradient(
     145deg,
-    rgba(24, 35, 57, 1) 5%,
+    #182339 5%,
     rgba(12, 179, 120, 1) 40%,
     rgba(12, 179, 120, 1) 60%,
     rgba(24, 35, 57, 1) 95%
@@ -97,3 +97,33 @@ body {
 .alert {
   color: var(--white)
 }
+
+.result-wrapper {
+  margin-top: 5rem;
+  color: var(--white);
+}
+
+.result-wrapper h2 {
+  text-align: center;
+}
+
+.result {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  gap: 2rem;
+}
+
+.result img {
+  width: 100%;
+}
+
+.result p {
+  margin: 0 0 1rem;
+  font-size: 1.6rem;
+}
+
+.result span {
+  font-weight: 700;
+}
+
